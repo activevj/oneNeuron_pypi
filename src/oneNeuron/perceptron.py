@@ -2,6 +2,8 @@ import numpy as np
 import logging
 from tqdm import tqdm
 
+logging_str = "[%(asctime)s - %(levelname)s: %(module)s] %(message)s"
+log_dir="logs"
 
 
 class Perceptron:
